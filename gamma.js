@@ -12,8 +12,8 @@ function on_device_orientation(evt) {
 
     var centru = { x: canvas.width / 2, y: canvas.height / 2 }
     var latura_patrat = -150;
-    context.clearRect(0, 0, c.width, c.height);
+    context.clearRect(10, 10, c.width, c.height);
     context.fillStyle = "#F9DC5C";
     context.beginPath();
-    context.fillRect(200, 150, event.gamma, -100);
+    context.fillRect(200, 150, event.gamma, -150);
 }
